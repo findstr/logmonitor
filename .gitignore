@@ -1,0 +1,4 @@
+logs/*
+env.json
+logmonitor
+*.registry.json

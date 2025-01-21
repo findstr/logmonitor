@@ -1,0 +1,20 @@
+{
+	"monitor": [
+		{
+			"type": "zerolog",
+			"logFile": "logs/app.log",
+			"registry": ".app.registry.json"
+		},
+		{
+			"type": "mariadb",
+			"logFile": "logs/mariadb.log",
+			"registry": ".mariadb.registry.json"
+		}
+	],
+	"webhook": {
+		"feishu": {
+			"url": "https://open.feishu.cn/open-apis/bot/v2/hook/123456767899",
+			"secret": "123456778"
+		}
+	}
+}
